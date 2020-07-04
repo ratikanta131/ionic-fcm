@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <!-- Android -->
+  <ion-button (click)="registerForPushNotificationFromAndroid()" shape="round">
+    Register For Push Notification From Android
+  </ion-button>
+  <ion-button (click)="subscribeToTopicFromAndroid()" shape="round">
+    Subscribe To topic from Android
+  </ion-button>
+
+  <!-- Web -->
+  <ion-button (click)="requestPushNotificationsPermissionAndToken()" shape="round">
+     Enable web notifications and get Token
+  </ion-button>
+
+  <!-- Background sync -->
+  <ion-button (click)="registerToken()" shape="round">
+    Register Token
+  </ion-button>
+</ion-content>

@@ -1,0 +1,13 @@
+{
+  "appId": "org.sdrc.khabarodisha",
+  "appName": "GCDC-BBSR",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

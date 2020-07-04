@@ -1,0 +1,7 @@
+{
+  "name": "GCDC-BBSR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
